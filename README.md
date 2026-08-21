@@ -90,31 +90,4 @@ Backlogs: 0
 Performance: Good
 Feature Ranges
 
-Attendance       → Maximum 100%
-Internal Marks   → Maximum 100
-Previous Marks   → Maximum 100
-Assignment Marks → Maximum 100
-Study Hours      → Hours per day
-Backlogs         → 0, 1, 2, 3, ...
-Performance      → Good / Poor
 
-🔄 Project Workflow
-Student Dataset
-      ↓
-Data Preparation
-      ↓
-Feature Selection
-      ↓
-Label Encoding
-      ↓
-Train/Test Split
-      ↓
-Random Forest Classifier
-      ↓
-Trained Model
-      ↓
-Student Input
-      ↓
-Performance Prediction
-      ↓
-Good / Poor

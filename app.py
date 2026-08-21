@@ -28,11 +28,7 @@ st.write(
 )
 
 
-st.info(
-    "🌲 Random Forest Model | "
-    "Test Accuracy: 97.50% | "
-    "Dataset: 200 Records"
-)
+
 
 name = st.text_input("Student Name")
 

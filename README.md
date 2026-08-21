@@ -80,11 +80,29 @@ previous_marks
 assignment_marks
 backlogs
 performance
+
 Example Dataset Record
 Attendance: 85%
 Internal Marks: 75
 Study Hours: 4
 Previous Marks: 78
+
+## 🌐 Streamlit Web Application
+
+The project uses **Streamlit** to provide a browser-based interface for the Python Machine Learning model.
+
+The same trained Machine Learning model is integrated into two different applications:
+
+```text
+                 Trained ML Model
+                       │
+              ┌────────┴────────┐
+              ↓                 ↓
+           Tkinter          Streamlit
+              ↓                 ↓
+        Desktop App        Web Application
+                                ↓
+                           Online Access
 Assignment Marks: 82
 Backlogs: 0
 Performance: Good

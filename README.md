@@ -86,6 +86,9 @@ Attendance: 85%
 Internal Marks: 75
 Study Hours: 4
 Previous Marks: 78
+Assignment Marks: 82
+Backlogs: 0
+Performance: Good
 
 ## 🌐 Streamlit Web Application
 
@@ -103,9 +106,5 @@ The same trained Machine Learning model is integrated into two different applica
         Desktop App        Web Application
                                 ↓
                            Online Access
-Assignment Marks: 82
-Backlogs: 0
-Performance: Good
-Feature Ranges
 
 

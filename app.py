@@ -108,11 +108,7 @@ if st.button("🔮 Predict Performance"):
                 "📊 **Performance Status: ON TRACK**"
             )
 
-            st.success(
-                "💡 **Recommendation:** Keep up the good work! "
-                "Maintain consistent study habits, attendance, "
-                "and assignment performance."
-            )
+
 
         else:
 
@@ -125,8 +121,4 @@ if st.button("🔮 Predict Performance"):
                 "📊 **Performance Status: NEEDS IMPROVEMENT**"
             )
 
-            st.warning(
-                "💡 **Recommendation:** Focus on improving "
-                "attendance, study hours, assignments, "
-                "and academic performance."
-            )
+          

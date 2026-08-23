@@ -5,7 +5,7 @@ attendance,internal_marks,study_hours,previous_marks,assignment_marks,backlogs,p
 84,78,4.0,80,82,0,Good
 79,74,3.5,76,78,0,Good
 73,68,3.0,70,72,0,Good
-68,62,2.5,65,67,0,Good
+68,62,2.5,65,67,0,Poor
 61,58,2.0,60,63,0,Poor
 56,45,1.5,48,52,2,Poor
 52,40,1.0,42,46,3,Poor
@@ -43,7 +43,7 @@ attendance,internal_marks,study_hours,previous_marks,assignment_marks,backlogs,p
 83,86,5.5,85,88,0,Good
 77,80,4.5,78,82,0,Good
 71,75,3.5,73,76,0,Good
-66,69,3.0,67,70,0,Good
+66,69,3.0,67,70,0,Poor
 60,64,2.5,61,65,0,Poor
 55,58,2.0,56,60,0,Poor
 50,52,1.5,49,54,1,Poor
@@ -74,7 +74,16 @@ attendance,internal_marks,study_hours,previous_marks,assignment_marks,backlogs,p
 70,84,4.5,82,86,0,Good
 65,79,4.0,76,81,0,Good
 60,73,3.5,70,75,0,Poor
-55,68,3.0,65,70,0,Poor
 83,76,4.5,79,82,1,Good
 57,51,2.0,54,58,2,Poor
 91,86,5.5,89,93,3,Poor
+90,85,5.0,88,90,2,Good
+85,82,5.0,84,87,2,Good
+92,88,6.0,90,91,2,Good
+88,86,5.5,87,89,2,Good
+84,80,4.5,82,85,2,Good
+81,77,4.0,79,82,2,Good
+78,74,3.5,75,78,2,Poor
+74,70,3.0,71,74,2,Poor
+70,65,2.5,67,70,2,Poor
+66,61,2.0,63,66,2,Poor

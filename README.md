@@ -21,7 +21,7 @@ The project uses a **Random Forest Classifier** and provides both a **Tkinter de
 
 ## 📊 Dataset
 
-The project uses **80 student records** with the following features:
+The project uses **90 student records** with the following features:
 
 | Feature | Range / Description |
 |---|---|

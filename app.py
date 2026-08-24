@@ -111,6 +111,13 @@ if st.button("🔮 Predict Performance"):
 
         result = encoder.inverse_transform(prediction)[0]
 
+        # -----------------------------------------
+        # Additional Backlog Rule
+        # -----------------------------------------
+
+        if backlogs > 2:
+            result = "Poor"
+
         st.divider()
 
         # -----------------------------------------
@@ -128,7 +135,6 @@ if st.button("🔮 Predict Performance"):
                 "📊 **Performance Status: ON TRACK**"
             )
 
-
         else:
 
             st.error(
@@ -139,5 +145,3 @@ if st.button("🔮 Predict Performance"):
             st.warning(
                 "📊 **Performance Status: NEEDS IMPROVEMENT**"
             )
-
-

@@ -3,7 +3,9 @@ import pickle
 import pandas as pd
 
 
-
+# -----------------------------------------
+# Load Machine Learning Model
+# -----------------------------------------
 
 with open("student_model.pkl", "rb") as file:
     model = pickle.load(file)
@@ -12,7 +14,9 @@ with open("label_encoder.pkl", "rb") as file:
     encoder = pickle.load(file)
 
 
-
+# -----------------------------------------
+# Page Configuration
+# -----------------------------------------
 
 st.set_page_config(
     page_title="Student Performance Prediction",
@@ -21,6 +25,10 @@ st.set_page_config(
 )
 
 
+# -----------------------------------------
+# Title
+# -----------------------------------------
+
 st.title("🎓 Student Performance Prediction System")
 
 st.write(
@@ -28,7 +36,20 @@ st.write(
 )
 
 
+# -----------------------------------------
+# Model Information
+# -----------------------------------------
 
+st.info(
+    "🌲 Random Forest Model | "
+    "Test Accuracy: 97.50% | "
+    "Dataset: 200 Records"
+)
+
+
+# -----------------------------------------
+# Student Information
+# -----------------------------------------
 
 name = st.text_input("Student Name")
 
@@ -73,6 +94,10 @@ backlogs = st.number_input(
 )
 
 
+# -----------------------------------------
+# Prediction
+# -----------------------------------------
+
 if st.button("🔮 Predict Performance"):
 
     if name.strip() == "":
@@ -89,6 +114,9 @@ if st.button("🔮 Predict Performance"):
             backlogs
         ]]
 
+        # -----------------------------------------
+        # Make Prediction
+        # -----------------------------------------
 
         prediction = model.predict(student_data)
 
@@ -96,6 +124,9 @@ if st.button("🔮 Predict Performance"):
 
         st.divider()
 
+        # -----------------------------------------
+        # Display Prediction
+        # -----------------------------------------
 
         if result == "Good":
 
@@ -108,7 +139,11 @@ if st.button("🔮 Predict Performance"):
                 "📊 **Performance Status: ON TRACK**"
             )
 
-
+            st.success(
+                "💡 **Recommendation:** Keep up the good work! "
+                "Maintain consistent study habits, attendance, "
+                "and assignment performance."
+            )
 
         else:
 
@@ -121,4 +156,8 @@ if st.button("🔮 Predict Performance"):
                 "📊 **Performance Status: NEEDS IMPROVEMENT**"
             )
 
-          
+            st.warning(
+                "💡 **Recommendation:** Focus on improving "
+                "attendance, study hours, assignments, "
+                "and academic performance."
+            )

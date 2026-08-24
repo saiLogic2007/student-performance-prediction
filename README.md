@@ -69,7 +69,7 @@ Student_Performance_Project/
 
 📊 Dataset
 
-The project uses a student academic dataset containing 80 student records.
+The project uses a student academic dataset containing 90 student records.
 
 The dataset contains the following columns:
 

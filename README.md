@@ -92,7 +92,7 @@ Random Forest Classifier
       ↓
 Good / Poor
 
-treamlit Application Flow
+Streamlit Application Flow
                  Trained ML Model
                        │
               ┌────────┴────────┐
@@ -103,7 +103,7 @@ treamlit Application Flow
                                 ↓
                            Online Access
 
-Project Structure
+📁Project Structure
 Student_Performance_Project/
 │
 ├── app.py                  # Streamlit web application

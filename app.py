@@ -107,9 +107,14 @@ if st.button("🔮 Predict Performance"):
         # Make Prediction
         # -----------------------------------------
 
-        prediction = model.predict(student_data)
+prediction = model.predict(student_data)
 
-        result = encoder.inverse_transform(prediction)[0]
+if attendance < 40 and internal_marks < 40:
+    result = "Poor"
+elif backlogs > 2:
+    result = "Poor"
+else:
+    result = encoder.inverse_transform(prediction)[0]
 
         # -----------------------------------------
         # Additional Backlog Rule

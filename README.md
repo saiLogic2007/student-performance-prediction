@@ -53,7 +53,8 @@ previous_marks
 assignment_marks
 backlogs
 performance
-Example Dataset Record
+
+**Example Dataset Record**
 Attendance: 85%
 Internal Marks: 75
 Study Hours: 4
@@ -63,21 +64,21 @@ Backlogs: 0
 Performance: Good
  Machine Learning Approach
 
-The project uses a Random Forest Classifier to classify student performance into two categories:
+**The project uses a Random Forest Classifier to classify student performance into two categories:**
 
-Good
-Poor
- Prediction Logic
+1.Good
+2.Poor
+** Prediction Logic**
 
 The application primarily uses the trained Random Forest Classifier to make predictions.
 
 Additional validation rules are included for clearly poor academic conditions.
 
-Rule 1 — Low Academic Performance
+**Rule 1 — Low Academic Performance**
 Attendance < 40 AND Internal Marks < 40
                     ↓
                   Poor
-Rule 2 — Number of Backlogs
+**Rule 2 — Number of Backlogs**
 Backlogs > 2
       ↓
     Poor
@@ -92,7 +93,7 @@ Random Forest Classifier
       ↓
 Good / Poor
 
-Streamlit Application Flow
+**Streamlit Application Flow**
                  Trained ML Model
                        │
               ┌────────┴────────┐
